@@ -1,10 +1,36 @@
 import React from 'react';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container';
 
 export default function NavBar() {
   return (
     <div id="NavBar">
-      <img src="http://localhost:3000/SmallLogo.png" id="nav-logo" alt="Logo in Nav"/>
-      NavBar Component
+
+      <Navbar expand="lg" className="navbar">
+      <Container >
+        <img src="http://localhost:3000/FullLogo.png" id="nav-logo" alt="Logo in Nav"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            {/* keep this nav so links render on right side */}
+          </Nav>
+          <Nav>
+            <Nav.Link href="/About">About</Nav.Link>
+            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+
+
+
+
+
+
+
+
+
     </div>
   )
 }

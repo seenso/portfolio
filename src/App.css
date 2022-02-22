@@ -1,52 +1,39 @@
 * {
   background-color: #e1dcd6;
-  /* background-color: #E3D5CA; */
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.App {
+  margin: 0px 50px 0px 50px;
 }
 
 #nav-logo {
   height: 50px;
 }
 
-#Footer {
+.component {
   border-style: solid;
+  height: 500px;
 }
 
-
-/* .App {
-  text-align: center;
+#About {
+  height: 325px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#AboutContainer {
+  margin: 50px;
+  padding: 20px;
+  width: 50%;
+  /* background: rgba(255, 255, 255, 0.5); */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Projects {
+  /* background-image: url("http://localhost:3000/mountain2.jpg"); */
+  /* height: 500px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footerIcon {
+  height: 20px;
+  margin: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

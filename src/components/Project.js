@@ -16,7 +16,7 @@ export default function Project({ title }) {
                 rel="noopener noreferrer"
               >
               <div data-tilt className="thumbnail rounded">
-                <img src="http://localhost:3000/mountain.jpg" alt="img" className="ProjectImg"/>
+                <img src="public/mountain.jpg" alt="img" className="ProjectImg"/>
               </div>
               </a>
             </div>

@@ -7,7 +7,7 @@
 .App {
   /* margin: 0px 50px 0px 50px; */
   margin: auto;
-  width: 75%;
+  width: 80%;
   justify-content: center;
 }
 
@@ -15,31 +15,32 @@
   height: 50px;
 }
 
-.component {
-  border-style: solid;
-}
-
 #About {
-  height: 325px;
+  padding: 80px;
 }
-
-#AboutContainer {
+#AboutText {
   margin: 50px;
   padding: 20px;
+  height: auto;
   width: 50%;
-  /* background: rgba(255, 255, 255, 0.5); */
+  float: left;
+  /* background: rgba(255, 255, 255, 0.7); */
+}
+#AboutImg {
+  height: auto;
+  margin: 10px;
 }
 
 .Project {
-  margin: 30px;
-  padding: 20px;
+  padding: 50px;
 }
-.ProjectBttns button {
-  border-radius: 20px;
-  padding: 8px;
+.ProjectBttns {
+  border-radius: 8px;
+  padding: 5px;
+  margin: 0px 10px 0px 10px;
 }
 .ProjectImg {
-  height: 300px;
+  width: 100%;
 }
 
 #Footer {

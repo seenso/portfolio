@@ -9,8 +9,7 @@ export default function Footer() {
       <Navbar expand="lg" className="navbar">
         <img src="http://localhost:3000/SmallLogo.png" id="nav-logo" alt="Logo in Footer"/>
         <p className="footer__text">
-          © {new Date().getFullYear()} - Portfolio developed by{' '}
-            Seen So
+          © {new Date().getFullYear()} - Portfolio developed by Seen So
         </p>
 
         <Container className="footerIconContainer">

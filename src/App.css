@@ -5,7 +5,10 @@
 }
 
 .App {
-  margin: 0px 50px 0px 50px;
+  /* margin: 0px 50px 0px 50px; */
+  margin: auto;
+  width: 75%;
+  justify-content: center;
 }
 
 #nav-logo {
@@ -27,14 +30,22 @@
   /* background: rgba(255, 255, 255, 0.5); */
 }
 
+.Project {
+  margin: 30px;
+  padding: 20px;
+}
+.ProjectBttns button {
+  border-radius: 20px;
+  padding: 8px;
+}
+.ProjectImg {
+  height: 300px;
+}
+
 #Footer {
-  position: absolute;
   right: 50px;
   bottom: 0;
   left:50px;
-}
-.footerIconContainer {
-  float: right;
 }
 .footerIcon {
   height: 20px;

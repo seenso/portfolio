@@ -5,8 +5,7 @@ export default function About() {
     <div id="About" className="component">
       <div id="AboutContainer">
         <div id="AboutText">
-          <h1>Hi,</h1>
-          <h1>I'm Seen So.</h1>
+          <h1>Hi, my name is Seen.</h1>
           <p>I am a fullstack software engineer based in the Pacific North West.</p>
         </div>
       </div>

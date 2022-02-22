@@ -14,7 +14,6 @@
 
 .component {
   border-style: solid;
-  height: 500px;
 }
 
 #About {
@@ -28,6 +27,15 @@
   /* background: rgba(255, 255, 255, 0.5); */
 }
 
+#Footer {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  left:50px;
+}
+.footerIconContainer {
+  float: right;
+}
 .footerIcon {
   height: 20px;
   margin: 10px;

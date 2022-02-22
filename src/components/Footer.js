@@ -11,7 +11,6 @@ export default function Footer() {
         <p className="footer__text">
           © {new Date().getFullYear()} - Portfolio developed by Seen So
         </p>
-
         <Container className="footerIconContainer">
           <Nav className="me-auto">
             {/* keep this nav so icons render on right side */}
@@ -33,7 +32,6 @@ export default function Footer() {
             <img src="public/gmail.png" className="footerIcon" alt="gmail logo" />
           </a>
         </Container>
-
     </Navbar>
     </div>
   )

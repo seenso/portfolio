@@ -9,9 +9,7 @@ export default function About() {
           <p>I am a fullstack software engineer based in the Pacific North West.</p>
         </div>
         <div>
-          {/* <img src="./public/pnwline.png" alt="About img" id="AboutImg"/> */}
-          <img src="https://res.cloudinary.com/demo/image/upload/w_70,h_53,c_scale/turtles.jpg" alt="About img" id="AboutImg"/>
-          
+          <img src="https://res.cloudinary.com/icseen/image/upload/v1645580227/pnwline_zkvwhr.png" alt="About img" id="AboutImg"/>
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ export default function Project({ title }) {
                 rel="noopener noreferrer"
               >
               <div data-tilt className="thumbnail rounded">
-                <img src="public/mountain.jpg" alt="img" className="ProjectImg"/>
+                <img src="https://res.cloudinary.com/icseen/image/upload/v1645580230/mountain_utu8ag.jpg" alt="img" className="ProjectImg"/>
               </div>
               </a>
             </div>

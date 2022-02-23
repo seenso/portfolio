@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div id="Footer">
       <Navbar expand="lg" className="navbar">
-        <img src="public/SmallLogo.png" id="nav-logo" alt="Logo in Footer"/>
+        <img src="public/smalllogo.png" id="nav-logo" alt="Logo in Footer"/>
         <p className="footer__text">
           © {new Date().getFullYear()} - Portfolio developed by Seen So
         </p>

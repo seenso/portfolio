@@ -9,7 +9,7 @@ export default function NavBar() {
 
       <Navbar expand="lg" className="navbar">
       <Container >
-        <img src="public/FullLogo.png" id="nav-logo" alt="Logo in Nav"/>
+        <img src="./fulllogo.png" id="nav-logo" alt="Logo in Nav"/>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

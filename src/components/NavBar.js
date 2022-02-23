@@ -16,7 +16,7 @@ export default function NavBar() {
             {/* keep this nav so links render on right side */}
           </Nav>
           <Nav>
-            <Nav.Link href="/Portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#Portfolio">Portfolio</Nav.Link>
             {/* <Nav.Link href="/Contact">Contact</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
